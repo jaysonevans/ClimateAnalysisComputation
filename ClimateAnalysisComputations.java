@@ -60,7 +60,8 @@ public class ClimateAnalysisComputations {
 
 		// Compute values
 		double mean = computeMean(numbers);
-		double standardDeviation = computeStandardDeviation(mean, numbers); double standardError = computeStandardError(standardDeviation, numbers);
+		double standardDeviation = computeStandardDeviation(mean, numbers); 
+		double standardError = computeStandardError(standardDeviation, numbers);
 		// Print information
 		System.out.print("For numbers ");
 		for (double e: numbers)
